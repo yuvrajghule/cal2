@@ -1,75 +1,75 @@
 body{
-    background-color: aliceblue;
+  background-color: aliceblue;
+}
+#s{
+  color: darkorange;
+}
+#st{
+  color: green;
+}
+.calc{
+  height: 500px;
+  width: 320px;
+  border: 2px solid darkslateblue;
+  border-radius: 20px;
+  margin: 50px;
+  background-color: black;
+  text-align: center;
+}
+  table{
+    margin: auto;
   }
-  #s{
-    color: darkorange;
-  }
-  #st{
-    color: green;
-  }
-  .calc{
-    height: 340px;
-    width: 220px;
-    border: 2px solid darkslateblue;
-    border-radius: 20px;
-    margin: 50px;
-    background-color: black;
-    text-align: center;
-  }
-    table{
-      margin: auto;
-    }
-  button{
-    margin: 5px;
-    color:white;
-    background-color: #2d3436 ;
-    border-radius: 360px;
-    font-size: 20px;
-    border:none;
-    height: 35px;
-    width: 40px;
-    font-family: serif;
-    outline: none;
-  }
-  footer{
-    text-align: center;
-    font-family: cursive;
-    font-size: 20px;
-    color: whitesmoke;
-  }
-  #sp{
-    color: white;
-    background-color: orange;
-    font-size: 2em;
-  }
-  #out{
-    font-size: 2em;
-  }
-  input{
-    border: none;
-    outline: none;
-    background: none;
-    text-align: right;
-    font-family: sans-serif;
-    font-style: bold;
-    font-size: 20px;
-    height: 30px;
-    width: 190px;
-    color: white;
-    border-radius: 10px;
-  }
-  button:hover{
-   background-color: burlywood;
-   border: 2px solid white;
-  }
-  
-  h1{
-    font-family: cursive;
-    text-align: center;
-  }
-  .eq{
-    background-color: blue;
-  }
-  #clr{
-    background-color: red;
-  }
+button{
+  margin: 5px;
+  color:white;
+  background-color: #2d3436 ;
+  border-radius: 360px;
+  font-size: 20px;
+  border:none;
+  height: 52px;
+  width: 52px;
+  font-family: serif;
+  outline: none;
+}
+footer{
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#sp{
+  color: white;
+  background-color: orange;
+  font-size: 2em;
+}
+#out{
+  font-size: 2.5em;
+}
+input{
+  border: none;
+  outline: none;
+  background: none;
+  text-align: right;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 2em;
+  height: 40px;
+  width: 190px;
+  color: white;
+  border-radius: 10px;
+}
+button:hover{
+ background-color: burlywood;
+ border: 2px solid white;
+}
+
+h1{
+  font-family: cursive;
+  text-align: center;
+}
+.eq{
+  background-color: blue;
+}
+#clr{
+  background-color: red;
+}
