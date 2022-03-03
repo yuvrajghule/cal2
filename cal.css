@@ -13,7 +13,7 @@ body{
   border: 2px solid darkslateblue;
   border-radius: 20px;
   margin: 50px;
-  background-color: black;
+  background-color: radient(30deg,red,blue);
   text-align: center;
 }
   table{
