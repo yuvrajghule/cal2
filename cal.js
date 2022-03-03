@@ -1,4 +1,8 @@
  function f(val){
+     if(val='del')
+     {
+      var p=val/10;
+      val=Math.trunc(p);}
      document.getElementById('scr').value+=val;
    }
    function solve(){
