@@ -3,10 +3,8 @@
    }
 
  function del(){
-  let p;
-  let v=document.getElementById("scr").value;
-     p=v/10;
-     val=Math.trunc(p);
+     let v=document.getElementById('src').value;
+     val=Math.trunc(v/10);
      document.getElementById('scr').value=val;
       
      }
