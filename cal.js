@@ -1,10 +1,15 @@
  function f(val){
-     if(val=='del')
-     {
-      var p=val/10;
-      val=Math.trunc(p);}
      document.getElementById('scr').value+=val;
    }
+
+ function del(){
+  let p;
+  let v=document.getElementById("scr").value;
+     p=v/10;
+     val=Math.trunc(p);
+     document.getElementById('scr').value=val;
+      
+     }
    function solve(){
      let x=document.getElementById("scr").value;
      let y=eval(x);
